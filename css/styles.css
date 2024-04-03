@@ -1,0 +1,43 @@
+*{         
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.bg-red{
+    background-color: red;
+}
+
+.banner-inicio{
+    margin-top: -21%;
+    margin-bottom: -15%;
+}
+
+.banner-calendario{
+    width: 100%;
+    height: 350px;
+}
+
+.redes a{
+    text-decoration: none;
+    color: red;
+    font-size: 20px;
+    letter-spacing: 15px;
+}
+
+
+
+/*inicio de media queries*/
+
+@media (min-width: 992px){
+    .redes a {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 576px){
+    .ajuste-video iframe{
+        width: auto;
+    }
+}
