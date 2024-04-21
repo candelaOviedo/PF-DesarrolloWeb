@@ -19,17 +19,26 @@ html {
     background-color: $color1;
 }
 
+/*Header*/ 
 li a:hover{
     background-color: $color1;
     transition: 0.6s;
     border-radius: 10%;
 }
+/*Fin header*/
 
-h1, h2 {
+h1{
     font-family: $font2;
     font-weight: 600;
+    text-shadow: 0 0 1.5px white;
 }
 
+h2{
+    @extend h1;
+    font-size: 35px;
+}
+
+/*Inicio*/
 .banner-inicio{
     margin-top: -21%;
     margin-bottom: -10%;
@@ -47,13 +56,38 @@ h1, h2 {
         }
     }
 }
+/*Fin Inicio*/
 
+/*Pilotos*/
+.cards {
+    display: flex;
+    justify-content: space-around;
+    .card{
+        box-shadow: 0 0 18px $color1 inset;
+        margin: 30px;
+        background-color: black;
+        color: white;
+        img {
+            margin-top: 15px;
+            box-shadow: 0 0 4px $color1;
+        }
+    }
+    :hover {
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
+}
+/*FIn Pilotos*/
 
+/*Calendario*/
 .banner-calendario{
     width: 100%;
     height: 350px;
 }
+/*Fin Calendario*/
 
+
+/*Footer*/
 .redes a{
     text-decoration: none;
     color: $color1;
@@ -65,6 +99,7 @@ h1, h2 {
         color: white;
     }
 }
+/*Fin Footer*/
 
 .subir{
     background-color: $color1;
