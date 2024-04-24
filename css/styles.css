@@ -63,6 +63,7 @@ h2 {
   margin: 30px;
   background-color: black;
   color: white;
+  transition: 0.6s;
 }
 .cards .card img {
   margin-top: 15px;
@@ -70,7 +71,6 @@ h2 {
 }
 .cards :hover {
   transform: scale(1.1);
-  transition: 0.6s;
 }
 
 /*Fin Pilotos*/
@@ -89,11 +89,11 @@ h2 {
 .images1 .images2 {
   border-radius: 30px;
   box-shadow: 0 0 15px black;
+  transition: all 0.5s;
 }
 .images1 .images2:hover {
   box-shadow: 0 0 15px rgb(209, 12, 12);
   transform: scale(1.2);
-  transition: 0.5s;
 }
 
 /*Fin Galeria*/
@@ -121,10 +121,10 @@ h2 {
   color: rgb(193, 191, 191);
   font-size: 20px;
   letter-spacing: 15px;
+  transition: all 0.5s;
 }
 .redes a :hover {
   transform: scale(1.2);
-  transition: 0.5s;
   color: rgb(209, 12, 12);
 }
 
@@ -142,10 +142,10 @@ h2 {
   line-height: 40px;
   border-radius: 50%;
   box-shadow: 0 0 5px 1px white;
+  transition: all 0.5s;
 }
 .subir:hover {
   transform: scale(1.2);
-  transition: 0.5s;
   color: black;
   background-color: rgb(193, 191, 191);
 }
