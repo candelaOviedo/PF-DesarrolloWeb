@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -14,14 +15,6 @@ html {
   background-color: rgb(193, 191, 191);
 }
 
-/*Header*/
-li a:hover {
-  background-color: rgb(193, 191, 191);
-  transition: 0.5s;
-  border-radius: 10%;
-}
-
-/*Fin header*/
 h1, h2 {
   font-family: "Noto Sans", sans-serif;
   font-weight: 600;
@@ -32,103 +25,6 @@ h2 {
   font-size: 35px;
 }
 
-/*Inicio*/
-.banner-inicio {
-  margin-top: -21%;
-  margin-bottom: -10%;
-}
-
-.bg-contador {
-  background-color: rgb(223, 217, 217);
-}
-.bg-contador p {
-  font-size: 18px;
-  color: black;
-  font-family: "Noto Sans", sans-serif;
-}
-.bg-contador p i {
-  font-size: 35px;
-  color: rgb(209, 12, 12);
-  text-shadow: 0 0 2px black;
-}
-
-/*Fin Inicio*/
-/*Pilotos*/
-.cards {
-  display: flex;
-  justify-content: space-around;
-}
-.cards .card {
-  box-shadow: 0 0 18px rgb(209, 12, 12) inset;
-  margin: 30px;
-  background-color: black;
-  color: white;
-  transition: 0.6s;
-}
-.cards .card img {
-  margin-top: 15px;
-  box-shadow: 0 0 4px rgb(209, 12, 12);
-}
-.cards :hover {
-  transform: scale(1.1);
-}
-
-/*Fin Pilotos*/
-/*Calendario*/
-.banner-calendario {
-  width: 100%;
-  height: 350px;
-}
-
-/*Fin Calendario*/
-/*Galeria*/
-.images1 {
-  display: flex;
-  justify-content: space-around;
-}
-.images1 .images2 {
-  border-radius: 30px;
-  box-shadow: 0 0 15px black;
-  transition: all 0.5s;
-}
-.images1 .images2:hover {
-  box-shadow: 0 0 15px rgb(209, 12, 12);
-  transform: scale(1.2);
-}
-
-/*Fin Galeria*/
-/*Contacto*/
-::-moz-placeholder {
-  text-align: center;
-}
-::placeholder {
-  text-align: center;
-}
-
-.boton-enviar {
-  color: rgb(209, 12, 12);
-  background-color: black;
-}
-.boton-enviar:hover {
-  background-color: rgb(209, 12, 12);
-  color: black;
-}
-
-/*Fin Contacto*/
-/*Footer*/
-.redes a {
-  text-decoration: none;
-  color: rgb(193, 191, 191);
-  font-size: 20px;
-  letter-spacing: 15px;
-  transition: all 0.5s;
-}
-.redes a :hover {
-  transform: scale(1.2);
-  color: rgb(209, 12, 12);
-}
-
-/*Fin Footer*/
 .subir {
   background-color: rgb(209, 12, 12);
   color: white;
@@ -160,4 +56,93 @@ h2 {
   .ajuste-video iframe {
     width: auto;
   }
-}/*# sourceMappingURL=styles.css.map */
+}
+.banner-calendario {
+  width: 100%;
+  height: 350px;
+}
+
+.redes a {
+  text-decoration: none;
+  color: rgb(193, 191, 191);
+  font-size: 20px;
+  letter-spacing: 15px;
+  transition: all 0.5s;
+}
+.redes a :hover {
+  transform: scale(1.2);
+  color: rgb(209, 12, 12);
+}
+
+.images1 {
+  display: flex;
+  justify-content: space-around;
+}
+.images1 .images2 {
+  border-radius: 30px;
+  box-shadow: 0 0 15px black;
+  transition: all 0.5s;
+}
+.images1 .images2:hover {
+  box-shadow: 0 0 15px rgb(209, 12, 12);
+  transform: scale(1.2);
+}
+
+li a:hover {
+  background-color: rgb(193, 191, 191);
+  transition: 0.5s;
+  border-radius: 10%;
+}
+
+.banner-inicio {
+  margin-top: -21%;
+  margin-bottom: -10%;
+}
+
+.bg-contador {
+  background-color: rgb(223, 217, 217);
+}
+.bg-contador p {
+  font-size: 18px;
+  color: black;
+  font-family: "Noto Sans", sans-serif;
+}
+.bg-contador p i {
+  font-size: 35px;
+  color: rgb(209, 12, 12);
+  text-shadow: 0 0 2px black;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+}
+.cards .card {
+  box-shadow: 0 0 18px rgb(209, 12, 12) inset;
+  margin: 30px;
+  background-color: black;
+  color: white;
+  transition: 0.6s;
+}
+.cards .card img {
+  margin-top: 15px;
+  box-shadow: 0 0 4px rgb(209, 12, 12);
+}
+.cards :hover {
+  transform: scale(1.1);
+}
+
+::placeholder {
+  text-align: center;
+}
+
+.boton-enviar {
+  color: rgb(209, 12, 12);
+  background-color: black;
+}
+.boton-enviar:hover {
+  background-color: rgb(209, 12, 12);
+  color: black;
+}
+
+/*# sourceMappingURL=styles.css.map */

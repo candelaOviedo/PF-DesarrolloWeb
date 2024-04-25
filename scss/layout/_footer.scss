@@ -1,0 +1,11 @@
+.redes a{
+    text-decoration: none;
+    color: $color1;
+    font-size: 20px;
+    letter-spacing: 15px;
+    transition: $transition1;
+    :hover{
+        transform: $transform1;
+        color: $color2;
+    }
+}

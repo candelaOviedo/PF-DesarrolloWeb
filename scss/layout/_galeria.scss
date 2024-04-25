@@ -1,0 +1,12 @@
+.images1{
+    @include flex-space-around;
+    .images2{
+        border-radius: 30px;
+        box-shadow: 0 0 15px black;
+        transition: $transition1;
+        &:hover{
+            box-shadow: 0 0 15px $color2;
+            transform: $transform1;
+        }
+    }
+}

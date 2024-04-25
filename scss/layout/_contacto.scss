@@ -1,0 +1,11 @@
+::placeholder{
+    text-align: center;
+}
+.boton-enviar{
+    color: $color2;
+    background-color: black;
+    &:hover{
+        background-color: $color2;
+        color: black;
+    }
+}

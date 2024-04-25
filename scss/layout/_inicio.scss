@@ -1,0 +1,18 @@
+.banner-inicio{
+    margin-top: -21%;
+    margin-bottom: -10%;
+}
+
+.bg-contador {
+    background-color: rgb(223, 217, 217);
+    p {
+        font-size: 18px;
+        color: black;
+        font-family: $font2;
+        i {
+            font-size: 35px;
+            color: $color2;
+            text-shadow: 0 0 2px black;
+        }
+    }
+}
