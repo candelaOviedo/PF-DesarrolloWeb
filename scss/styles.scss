@@ -1,10 +1,8 @@
+@import "./utilities/_variables";
+
+@import "./utilities/_mixins";
+
 @import "./base/_base";
-
-@import "./layout/_calendarios";
-
-@import "./layout/_footer";
-
-@import "./layout/_galeria";
 
 @import "./layout/_header";
 
@@ -12,8 +10,14 @@
 
 @import "./layout/_pilotos";
 
-@import "./utilities/_mixins";
+@import "./layout/_calendarios";
 
-@import "./utilities/_variables";
+@import "./layout/_galeria";
 
 @import "./layout/_contacto";
+
+@import "./layout/_footer";
+
+
+
+
