@@ -73,6 +73,18 @@ li a:hover {
   border-radius: 10%;
 }
 
+.redes a {
+  text-decoration: none;
+  color: rgb(193, 191, 191);
+  font-size: 20px;
+  letter-spacing: 15px;
+  transition: all 0.5s;
+}
+.redes a :hover {
+  transform: scale(1.2);
+  color: rgb(209, 12, 12);
+}
+
 .banner-inicio {
   margin-top: -12%;
   margin-bottom: -5.5%;
@@ -141,18 +153,6 @@ li a:hover {
 .boton-enviar:hover {
   background-color: rgb(209, 12, 12);
   color: black;
-}
-
-.redes a {
-  text-decoration: none;
-  color: rgb(193, 191, 191);
-  font-size: 20px;
-  letter-spacing: 15px;
-  transition: all 0.5s;
-}
-.redes a :hover {
-  transform: scale(1.2);
-  color: rgb(209, 12, 12);
 }
 
 /*# sourceMappingURL=styles.css.map */
