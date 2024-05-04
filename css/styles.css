@@ -11,7 +11,7 @@ html {
 }
 
 .bg-red {
-  background-color: rgb(193, 191, 191);
+  background: linear-gradient(to right, rgb(237, 235, 235), rgb(210, 206, 206), rgb(217, 210, 210), rgb(173, 170, 170));
 }
 
 h1, h2 {
@@ -53,7 +53,7 @@ h2 {
 .subir:hover {
   transform: scale(1.2);
   color: black;
-  background-color: rgb(193, 191, 191);
+  background-color: rgb(173, 170, 170);
 }
 
 /*inicio de media queries*/
@@ -68,14 +68,14 @@ h2 {
   }
 }
 li a:hover {
-  background-color: rgb(193, 191, 191);
+  background-color: rgb(173, 170, 170);
   transition: 0.5s;
   border-radius: 10%;
 }
 
 .redes a {
   text-decoration: none;
-  color: rgb(193, 191, 191);
+  color: rgb(173, 170, 170);
   font-size: 20px;
   letter-spacing: 15px;
   transition: all 0.5s;
@@ -91,7 +91,7 @@ li a:hover {
 }
 
 .bg-contador {
-  background-color: rgb(234, 231, 231);
+  background: linear-gradient(rgb(173, 170, 170), rgb(212, 210, 210), rgb(231, 228, 228), rgb(224, 224, 228));
 }
 .bg-contador p {
   font-size: 18px;

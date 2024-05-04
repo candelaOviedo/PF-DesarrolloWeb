@@ -63,20 +63,20 @@
             <p class="p-3">Si deseas estar al tanto de todas las novedades de la Formula 1 dejanos tus datos de contacto</p>
         </div>
         <div class=" d-flex justify-content-center">
-            <form method="POST" class="w-75">
+            <form method="post" name="contact" class="w-75" netlify>
                 <div class="mb-3 p-4">
-                    <label for="nombre_apellido" class="form-label">Nombre</label>
+                    <label for="nombre_apellido" class="form-label"><strong>Nombre completo</strong></label>
                     <input type="text" class="form-control p-2" name="nombre_apellido" placeholder="Nombre y Apellido">
                 </div>
                 <div class="mb-3 p-4">
-                    <label for="email" class="form-label">Email</label>
+                    <label for="email" class="form-label"><strong>Email</strong></label>
                     <input type="email" class="form-control p-2" name="email" placeholder="ejemplo@mail.com">
                 </div>
                 <div class="mb-3 p-4">
-                    <label for="mensaje" class="form-label">Mensaje adicional</label>
-                    <textarea name="" id="" cols="30" rows="5" class="form-control" placeholder="Dejá tu mensaje"></textarea>
+                    <label for="mensaje" class="form-label"> <strong>Mensaje adicional</strong></label>
+                    <textarea name="comentarios" id="comentarios" cols="30" rows="5" class="form-control" placeholder="Dejá tu mensaje"></textarea>
                 </div>
-                <button type="submit" class="btn p-3 boton-enviar mt-3 mb-5" value="Enviar">Enviar</button>
+                <button type="submit" name="enviar" class="btn p-3 boton-enviar mt-3 mb-5" value="Enviar">Enviar</button>
             </form>
         </div>
     </main>
