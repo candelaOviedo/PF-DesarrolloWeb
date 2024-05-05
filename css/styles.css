@@ -12,6 +12,7 @@ html {
 
 .bg-red {
   background: linear-gradient(to right, rgb(237, 235, 235), rgb(210, 206, 206), rgb(217, 210, 210), rgb(173, 170, 170));
+  box-shadow: 0 0 10px black;
 }
 
 h1, h2 {
@@ -91,6 +92,7 @@ li a:hover {
 }
 
 .bg-contador {
+  box-shadow: 0 0 4px black;
   background: linear-gradient(rgb(173, 170, 170), rgb(212, 210, 210), rgb(231, 228, 228), rgb(224, 224, 228));
 }
 .bg-contador p {
